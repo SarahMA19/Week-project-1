@@ -1,0 +1,57 @@
+.form-control{
+    border-radius: 50px;;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.sign-in-button{
+    padding-right: 25%;
+    padding-left: 25%;
+    
+}
+
+.social-text{
+    padding-left: 50%;
+    color: black;
+    font-size: small;
+}
+
+.left-side{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-right: 50%;
+    padding-top: 50px;
+    line-height: 2;
+    clip-path: circle(100% at 40% 2%);
+
+}
+
+
+.sign-up-button{
+    padding-right: 35%;
+    padding-left: 35%;
+    background-color: blue;
+    back
+  
+}
+
+.right-side{
+    padding-top: 0;
+    margin-left: %;
+}
+
+
+.rocket-img{
+   width:400px;
+   height:450px;
+   padding-bottom: 10%;
+}
+
+.h3{
+    text-align: ;
+}
+
+.card-title{
+    color:black;
+}
