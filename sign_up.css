@@ -1,4 +1,7 @@
 .img {
     height: 1103px;
-    width: 991px;
+    width: 20px;
+}
+#passwordHelpBlok.form-text {
+    width:20px;
 }
