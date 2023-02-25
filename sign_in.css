@@ -35,7 +35,7 @@ body{
    width:335px;
    height:450px;
    padding-bottom:22%;
-   margin-left: 10px;
+   margin-left: 120px;
 }
 
 h3{
@@ -58,7 +58,8 @@ h3{
 
 .col-6{
     background-color: blue;
-    border-radius:100% 0% 100% 0% / 0% 1% 100% 6% 
+    border-radius: 100% 0% 100% 0% / 0% 1% 100% 6%;
+  
 
 }
 .google{
@@ -82,7 +83,7 @@ h3{
 }
 
 #right-side{
-    padding-left:300px;
+    
 }
 
 .icon-flex, .icon-wrapper {
@@ -112,4 +113,8 @@ h3{
     position: absolute;
     top: calc(50%);
     left: 1.25rem;
+}
+
+.my-sign-up-card{
+    max-width: 400px;
 }
