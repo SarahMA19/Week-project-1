@@ -1,57 +1,115 @@
+
+body{
+    margin:0px;
+    height: 100%;
+    padding: 0px;
+}
 .form-control{
-    border-radius: 50px;;
-    margin-top: 30px;
-    margin-bottom: 35px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
 }
 
 .sign-in-button{
-    padding-right: 25%;
-    padding-left: 25%;
-    
+    text-align: center; 
 }
 
 .social-text{
-    padding-left: 50%;
     color: black;
-    font-size: small;
+    font-size: x-small;
 }
 
-.left-side{
-    background-color: blue;
-    color: white;
-    text-align: center;
-    margin-right: 50%;
-    padding-top: 50px;
-    line-height: 2;
-    clip-path: circle(100% at 40% 2%);
-
+.container{
+   height: 100vh;
+   width: fit-content;
+   padding:0px;
+   margin: 0px;
 }
-
 
 .sign-up-button{
     padding-right: 35%;
-    padding-left: 35%;
-    background-color: blue;
-    back
-  
+    padding-left: 35%; 
 }
-
-.right-side{
-    padding-top: 0;
-    margin-left: %;
-}
-
 
 .rocket-img{
-   width:400px;
+   width:335px;
    height:450px;
-   padding-bottom: 10%;
+   padding-bottom:22%;
+   margin-left: 10px;
 }
 
-.h3{
-    text-align: ;
+h3{
+    text-align: center;
+    color:white;
+    margin-top: 50px;
+    font-size: larger;
 }
+
 
 .card-title{
     color:black;
+}
+
+.card-title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.col-6{
+    background-color: blue;
+    border-radius:100% 0% 100% 0% / 0% 1% 100% 6% 
+
+}
+.google{
+    width:35px;
+    height:30px;
+}
+
+.linked-in{
+    width:35px;
+    height:30px;
+}
+
+.twitter{
+    width:30px;
+    height:30px;
+}
+
+.facebook{
+    width:20px;
+    height:30px;
+}
+
+#right-side{
+    padding-left:300px;
+}
+
+.icon-flex, .icon-wrapper {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.icon-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+}
+.icon-wrapper i {
+    color: black;
+}
+
+.fa-input { font-family: FontAwesome, ‘Helvetica Neue’, Helvetica, Arial, sans-serif; }
+
+.form-floating{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: calc(50%);
+    left: 1.25rem;
 }
