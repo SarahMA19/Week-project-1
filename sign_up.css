@@ -3,23 +3,24 @@ body, html {
     overflow-y: auto;
 }
 
-#form-control {
-    margin-right: 600px;
-    height: 200px;
-    width: 2px;
+.form-control {
+    margin: 0 0 0 0; 
+    height: 120px;
+    width: 250px;
+        border-radius: 70%
 }
 
-.button {
-    background-color: #04AA6D;
-    border: none;
-    color: white;
-    padding: 200px;
-    text-align: center;
+.btn-primary{
+    background-color: blue;
+    border: line-width;
+    color: whitesmoke;
+    padding: 30px;
+    height: 20px;
+    text-align:center;
     text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 26px;
+    border-radius: 50%
 }
-
-{
-    overflow-x: hidden;
+    .overflow-x{
+hidden;
 }
