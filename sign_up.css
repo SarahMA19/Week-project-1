@@ -29,7 +29,8 @@ body, html {
 .icon{
     position:absolute;
     margin-left: -8%;
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
     /* margin-right: 10%; */
     
     
