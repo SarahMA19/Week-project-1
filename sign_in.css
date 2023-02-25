@@ -1,13 +1,24 @@
+/* Element */
 
 body{
     margin:0px;
     height: 100%;
     padding: 0px;
 }
+
+h3{
+    text-align: center;
+    color:white;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+/* Class */
+
 .form-control{
     border-radius: 50px;
     margin-top: 20px;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 .sign-in-button{
@@ -38,52 +49,17 @@ body{
    margin-left: 120px;
 }
 
-h3{
-    text-align: center;
-    color:white;
-    margin-top: 50px;
-    font-size: larger;
-}
-
-
-.card-title{
-    color:black;
-}
-
 .card-title{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    color:black;
 }
 
 .col-6{
     background-color: blue;
     border-radius: 100% 0% 100% 0% / 0% 1% 100% 6%;
-  
-
-}
-.google{
-    width:35px;
-    height:30px;
-}
-
-.linked-in{
-    width:35px;
-    height:30px;
-}
-
-.twitter{
-    width:30px;
-    height:30px;
-}
-
-.facebook{
-    width:20px;
-    height:30px;
-}
-
-#right-side{
-    
+    position: relative;
 }
 
 .icon-flex, .icon-wrapper {
@@ -91,6 +67,7 @@ h3{
     justify-content:center;
     align-items: center;
 }
+
 .icon-wrapper {
     border-radius: 50%;
     overflow: hidden;
@@ -99,11 +76,10 @@ h3{
     width: 40px;
     height: 40px;
 }
+
 .icon-wrapper i {
     color: black;
 }
-
-.fa-input { font-family: FontAwesome, ‘Helvetica Neue’, Helvetica, Arial, sans-serif; }
 
 .form-floating{
     position: relative;
