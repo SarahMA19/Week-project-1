@@ -1,3 +1,4 @@
+
 H3{text-align: center;}
 p>{text-align: center;
 font-family: arial;}
@@ -120,3 +121,17 @@ img.alignnone{
   .box2 { background-color: white; }
   .box3 { background-color: white); }
   .box4 { background-color: white; }
+
+.navbar-nav > li{
+    margin-left: 50px;
+      }
+    
+    .container img{
+        margin-left: 0px;
+    }
+    
+    footer img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+

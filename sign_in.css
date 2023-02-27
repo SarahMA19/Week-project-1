@@ -1,0 +1,96 @@
+/* Element */
+
+body{
+    margin:0px;
+    height: 100%;
+    padding: 0px;
+}
+
+h3{
+    text-align: center;
+    color:white;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+/* Class */
+
+.form-control{
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sign-in-button{
+    text-align: center; 
+}
+
+.social-text{
+    color: black;
+    font-size: x-small;
+}
+
+.container{
+   height: 100vh;
+   width: fit-content;
+   padding:0px;
+   margin: 0px;
+}
+
+.sign-up-button{
+    padding-right: 35%;
+    padding-left: 35%; 
+}
+
+.rocket-img{
+   width:335px;
+   height:450px;
+   padding-bottom:22%;
+   margin-left: 120px;
+}
+
+.card-title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:black;
+}
+
+.col-6{
+    background-color: blue;
+    border-radius: 100% 0% 100% 0% / 0% 1% 100% 6%;
+    position: relative;
+}
+
+.icon-flex, .icon-wrapper {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.icon-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-wrapper i {
+    color: black;
+}
+
+.form-floating{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: calc(50%);
+    left: 1.25rem;
+}
+
+.my-sign-up-card{
+    max-width: 400px;
+}
