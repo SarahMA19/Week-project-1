@@ -12,7 +12,6 @@ body, html {
     /* padding-left:0px; */
     /* height: 100vh; */
 }
-
 .form-control{
     position:relative;
     top:45px; right:100px; left:120px;
@@ -23,7 +22,6 @@ body, html {
     border-radius:30px;
     padding:%
 }
-
 .btn-primary{
     background-color: blue;
     color: whitesmoke;
