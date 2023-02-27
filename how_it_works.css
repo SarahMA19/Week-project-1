@@ -1,3 +1,4 @@
+
 #neck{
     display:flex;
     align-items: center;
@@ -100,3 +101,17 @@ hr{
         margin-left: 10px;
         margin-right: 10px;
     }
+
+ .navbar-nav > li{
+margin-left: 50px;
+  }
+
+.container img{
+    margin-left: 0px;
+}
+
+footer img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

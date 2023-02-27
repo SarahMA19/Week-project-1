@@ -1,0 +1,48 @@
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
+  
+}
+#main{
+    /* position:fixed; */
+    /* top:0px; */
+    /* bottom: 0px; */
+    /* left:0px; */
+    /* right: 0px; */
+    /* padding-left:0px; */
+    /* height: 100vh; */
+}
+.form-control{
+    position:relative;
+    top:45px; right:100px; left:120px;
+    background-color:transparent;
+    margin: 10 10 10 10; 
+    height: 50px;
+    width: 310px;
+    border-radius:30px;
+    padding:%
+}
+.btn-primary{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom:40px;
+    height: 1px;
+    width: 200px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius:30px;
+}
+.icon{
+    position:absolute;
+    margin-left: -8%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10%;
+ 
+}
+.col-1{
+    float: right;
+}
